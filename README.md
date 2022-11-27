@@ -72,27 +72,27 @@ EOF  all  count  create  destroy  help  quit  show  update
 
 #### 2. Non-interactive Mode
 ```
-kidusmik@ubuntu:~AirBnB_clone$ echo "help" | ./console.py
+Danielyadeta@ubuntu:~AirBnB_clone$ echo "help" | ./console.py
 (hbnb)
 
 Documented commands (type help <topic>):
 ========================================
 EOF  all  count  create  destroy  help  quit  show  update
 (hbnb) 
-kidusmik@ubuntu:~AirBnB_clone$
+Danielyadeta@ubuntu:~AirBnB_clone$
 ```
 ```
-kidusmik@ubuntu:~AirBnB_clone$ cat test_help
+Danielyadeta@ubuntu:~AirBnB_clone$ cat test_help
 help
-kidusmik@ubuntu:~AirBnB_clone$
-kidusmik@ubuntu:~AirBnB_clone$ cat test_help | ./console.py
+Danielyadeta@ubuntu:~AirBnB_clone$
+Danielyadeta@ubuntu:~AirBnB_clone$ cat test_help | ./console.py
 (hbnb)
 
 Documented commands (type help <topic>):
 ========================================
 EOF  all  count  create  destroy  help  quit  show  update
 (hbnb) 
-kidusmik@ubuntu:~AirBnB_clone$
+Danielyadeta@ubuntu:~AirBnB_clone$
 ```
 
 ### Example
@@ -204,7 +204,7 @@ c2e7de07-4c19-4ada-ba23-323cd5c26a5e
 #### Overall Usage Example
 
 ```
-kidusmik@ubuntu:~AirBnB_clone$ ./console.py
+Danielyadeta@ubuntu:~AirBnB_clone$ ./console.py
 (hbnb) create BaseModel
 ae76953c-4f05-4e14-9659-e599cd45a229
 (hbnb)
@@ -272,20 +272,20 @@ EOF  all  count  create  destroy  help  quit  show  update
 Quit command to exit the program
 (hbnb)
 (hbnb) quit
-kidusmik@ubuntu:~AirBnB_clone$
-kidusmik@ubuntu:~AirBnB_clone$ cat file.json ; echo ""
+Danielyadeta@ubuntu:~AirBnB_clone$
+Danielyadeta@ubuntu:~AirBnB_clone$ cat file.json ; echo ""
 {"Place.4e70b774-e1ce-45c6-8993-45e10ce48a46": {"id": "4e70b774-e1ce-45c6-8993-45e10ce48a46", "created_at": "2022-01-26T19:50:49.059166", "updated_at": "2022-01-26T19:50:49.059232", "__class__": "Place"}, "BaseModel.c37c1765-bd84-4890-90b4-690afffb2b3d": {"id": "c37c1765-bd84-4890-90b4-690afffb2b3d", "created_at": "2022-01-26T19:54:52.766133", "updated_at": "2022-01-26T19:56:36.394426", "email": "kidusmik@gmail.com", "__class__": "BaseModel"}}
-kidusmik@ubuntu:~AirBnB_clone$
+Danielyadeta@ubuntu:~AirBnB_clone$
 ```
 
 ### Testing
 
 To run all the `unittests` run `python3 -m unittest discover tests`:
 ```
-kidusmik@ubuntu:~AirBnB_clone$ python3 -m unittest discover tests
+Danielyadeta@ubuntu:~AirBnB_clone$ python3 -m unittest discover tests
 ```
 
 Or non-interactively by running `echo "python3 -m unittest discover tests" | bash`:
 ```
-kidusmik@ubuntu:~AirBnB_clone$ echo "python3 -m unittest discover tests" | bash
+Danielyadeta@ubuntu:~AirBnB_clone$ echo "python3 -m unittest discover tests" | bash
 ```
